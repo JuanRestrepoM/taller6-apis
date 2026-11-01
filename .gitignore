@@ -1,0 +1,25 @@
+# Bytecode de Python
+__pycache__/
+*.py[cod]
+
+# Ambientes virtuales
+.venv/
+venv/
+env/
+env-api/
+
+# Artefactos de tox y de pruebas
+.tox/
+.pytest_cache/
+.mypy_cache/
+*.egg-info/
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+
+# NOTA: model-pkg/*.whl NO se ignora a propósito.
+# requirements.txt instala el modelo desde ese archivo local
+# (./model-pkg/model_abandono-X.X.X-py3-none-any.whl), así que
+# el paquete debe viajar en el repositorio o la instalación falla
+# al clonar en la máquina virtual.
